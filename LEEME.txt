@@ -1,0 +1,14 @@
+GSF Global Logistics - sitio web (HTML/CSS/JS estatico)
+
+Estructura
+  index.html      Pagina principal (una sola pagina con anclas)
+  css/styles.css  Estilos y paleta (variables en :root)
+  js/main.js      Menu, slider, animaciones y formularios
+  img/logo.png    Logotipo original
+
+Pendientes antes de publicar
+1. Formularios: en js/main.js asigne FORM_ENDPOINT (script PHP, Formspree, etc.).
+   Mientras este vacio, los formularios abren el correo del visitante hacia info@gsfcargo.com.
+2. Fotos: se cargan desde https://gsfcargo.com/img/... (slider, pics). Si cambia el
+   hosting, copie esas imagenes a img/ y actualice las rutas en index.html.
+3. Ya envia el evento "form_submit" a dataLayer si se instala Google Tag Manager.
